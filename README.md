@@ -18,7 +18,7 @@ Cat2 | Cat2
 Main2 | start app
 MyOperation | Interface
 README | this file
-pom.xml | dependencies
+
 
 
 
