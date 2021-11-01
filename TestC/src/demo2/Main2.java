@@ -9,10 +9,10 @@ public class Main2 {
                 return value1 + value2;
             }
         };
-        System.out.println("Oreration sum :" + myOperation.getResult(50,55));
+        System.out.println("Operation sum :" + myOperation.getResult(50,55));
 
         // lambda
-        MyOperation<String> concat = ((value1, value2) -> value1 + value2);
+        MyOperation<String> concat = ((value1, value2) -> value1.concat(value2));
         System.out.println("Operation concat :" + concat.getResult("Kolia", "Gala"));
     }
 }

@@ -72,12 +72,11 @@ public class Cat1 {
 
         // anonymous class
         Print print = new Print() {
-            @Override
-            public void print() {
+            public void getName() {
                 System.out.println("Name cat :" + name);
             }
         };
-        print.print();
+
     }
 
 

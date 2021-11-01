@@ -1,12 +1,11 @@
 package demo1;
 
-import org.apache.log4j.Logger;
 
 public class Main1 {
     public static void main(String[] args) {
-        Logger logger;
+
         Cat1 cat = new Cat1("Barsik");
-        cat.printNameCat();
+//        cat.printNameCat();
         System.out.println(cat.getKitten("").getName());
         cat.generateJump();
         Integer key = Cat1.getKey(50,100);

@@ -11,7 +11,7 @@ You will see the following files and directories: <br>
 demo1/ | demo
 --- | ---
 Main1 | start app
-Cat1 | Entuty
+Cat1 | Entity
 Print | Interface
 demo2/ | demo
 Cat2 | Cat2
