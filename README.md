@@ -24,15 +24,23 @@ README | this file
 
 
 **REQUIREMENTS**<br>
-
+The minimum requirement by TestC is your PC have Windows 10 or Intellij IDEA
 
 
 The minimum requirement by demo1 is that your PC has Windows and Linux operating systems.<br>
+
+
+**BUILDING THE RUNNABLE JAR FILE**
+
+
 **QUICK START**
 
 
-demo1 start with following commands:
+On command line, demo1 start with following commands:
 <br>
+java -jar Main1.jar       (Windows)
+<br>
+On command line, demo2 start with following commands:
 
-**BUILDING THE RUNNABLE JAR FILE**
+java -jar Main2.jar       (Windows)
 
