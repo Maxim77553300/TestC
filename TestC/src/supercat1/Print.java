@@ -1,4 +1,4 @@
-package demo1;
+package supercat1;
 
 public interface Print {
     void getName();

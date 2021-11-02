@@ -1,10 +1,11 @@
-package demo1;
+package supercat1;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
 public class Cat1 {
+
     private String name;
     private List<Integer> jumps;
 
@@ -45,7 +46,6 @@ public class Cat1 {
         return new Key(x, y).getResult();
     }
 
-
     // inner class Kitten
     public class Kitten {
         private String name;
@@ -67,7 +67,6 @@ public class Cat1 {
         }
     }
 
-
     public void printNameCat() {
 
         // anonymous class
@@ -78,7 +77,6 @@ public class Cat1 {
         };
 
     }
-
 
     public Kitten getKitten(String name) {
 

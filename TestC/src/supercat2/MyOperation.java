@@ -1,4 +1,4 @@
-package demo2;
+package supercat2;
 
 @FunctionalInterface
 public interface MyOperation<T> {

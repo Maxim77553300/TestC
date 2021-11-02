@@ -1,4 +1,4 @@
-package demo2;
+package supercat2;
 
 public class Main2 {
     public static void main(String[] args) {
@@ -9,7 +9,7 @@ public class Main2 {
                 return value1 + value2;
             }
         };
-        System.out.println("Operation sum :" + myOperation.getResult(50,55));
+        System.out.println("Operation sum :" + myOperation.getResult(50, 55));
 
         // lambda
         MyOperation<String> concat = ((value1, value2) -> value1.concat(value2));
