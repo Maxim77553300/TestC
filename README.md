@@ -24,7 +24,7 @@ README | this file
 
 **REQUIREMENTS**<br>
 
-The minimum requirement by TestC is your PC have Windows 10 or Intellij IDEA
+The minimum requirement by TestC is your PC have Windows 10
 
 
 The minimum requirement by supercat1 is that your PC has Windows and Linux operating systems.<br>

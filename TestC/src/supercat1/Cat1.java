@@ -7,7 +7,7 @@ import java.util.Random;
 public class Cat1 {
 
     private String name;
-    private List<Integer> jumps;
+
 
     public Cat1(String name) {
         this.name = name;
@@ -70,28 +70,31 @@ public class Cat1 {
     public void printNameCat() {
 
         // anonymous class
-        Print print = new Print() {
+        CatName catName = new CatName() {
             public void getName() {
                 System.out.println("Name cat :" + name);
             }
         };
-
+        catName.getName();
     }
 
     public Kitten getKitten(String name) {
 
-        if (name.equals("")) {
+        if ("".equals(name)) {
             return new Kitten("no name");
         }
         return new Kitten(name);
     }
 
     public void generateJump() {
-        jumps = new ArrayList<>();
+
+        List<Integer> jumps = new ArrayList<>();
+
         for (int i = 0; i < 10; i++) {
 
             // local class
             class Jump {
+
                 private Integer jump;
 
                 Random random = new Random();

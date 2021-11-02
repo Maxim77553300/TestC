@@ -1,5 +1,5 @@
 package supercat1;
 
-public interface Print {
+public interface CatName {
     void getName();
 }
