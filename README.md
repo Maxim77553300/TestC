@@ -35,7 +35,7 @@ The minimum requirement by supercat1 is that your PC has Windows and Linux opera
 
  Steps for supercat1:
 1) Go to the folder on the command line where our application is located, Compile on the command line and write the path to the library :
-javac supercat1\*.java -cp lib\libname.jar -d out\
+javac supercat1\ *.java -cp lib\libname.jar -d out\
 2) Create file manifest.txt and write path to main class: Main-Class: supercat1.Main1
 3) Create jar file: jar -cfm supercat1.jar manifest.txt out\supercat1\
 4) Go to the folder where our file supercat1.jar is located (in our example - folder out)
@@ -43,7 +43,7 @@ javac supercat1\*.java -cp lib\libname.jar -d out\
 
 Steps for supercat2:
 1) Go to the folder on the command line where our application is located, Compile on the command line and write the path to the library :
-   javac supercat2\*.java -cp lib\libname.jar -d out\
+   javac supercat2\ *.java -cp lib\libname.jar -d out\
 2) Create file manifest.txt and write path to main class: Main-Class: supercat2.Main2
 3) Create jar file: jar -cfm supercat2.jar manifest.txt out\supercat2\
 4) Go to the folder where our file supercat2.jar is located (in our example - folder out)
